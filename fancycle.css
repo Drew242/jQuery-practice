@@ -11,5 +11,8 @@
   color: yellow;
 }
 .bigText {
-  text: 25px;
+  font-size: 150%;
+}
+.smallText {
+  font-size: 75%; 
 }

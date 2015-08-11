@@ -7,7 +7,8 @@ $(document).ready(function(){
     hideClass(song);
     addCounter(song);
     colorize(song);
-    increaseText(song); 
+    increaseText(song);
+    decreaseText(song);
 
     function colorize(song) {
       (song).find('#colorize').click(function(){
@@ -18,6 +19,12 @@ $(document).ready(function(){
     function increaseText(song) {
       (song).find('#increase-text-size').click(function(){
         song.toggleClass('bigText');
+      });
+    };
+
+    function decreaseText(song) {
+      (song).find('#decrease-text-size').click(function(){
+        song.toggleClass('smallText');
       });
     };
 
