@@ -1,3 +1,15 @@
 .hidden {
   display: none;
 }
+.color {
+  color: blue;
+}
+.colorR {
+  color: red;
+}
+.colorY {
+  color: yellow;
+}
+.bigText {
+  text: 25px;
+}
